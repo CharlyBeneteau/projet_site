@@ -1,4 +1,4 @@
-body, .cadreg, .cadred, {
+body, .cadreg, .cadred, #logosite {
     font-family: Arial, Helvetica, sans-serif
 }
     body {
@@ -23,5 +23,12 @@ body, .cadreg, .cadred, {
     background-color: rgba(13, 24, 30,255);
 }
 #logosite {
-
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-image: url(../image/logo.png) ;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
