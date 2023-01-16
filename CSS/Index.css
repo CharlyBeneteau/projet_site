@@ -32,3 +32,29 @@ body, .cadreg, .cadred, #logosite {
     background-repeat: no-repeat;
     margin-bottom: 150px;
 }
+.category, #abonnement {
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    border: 3px solid black;
+    margin-top: 15px;
+    background-color :rgb(50, 50, 50);
+    border-radius: 5px;
+}
+.category:hover {
+    background-color: #1e1e1e;
+}
+#categoryholder {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height:fit-content;
+    background-color: rgb(30, 30, 30);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-radius: 1px;
+}
