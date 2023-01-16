@@ -75,3 +75,12 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     margin-top: 5%;
     border-radius: 1px;
 }
+.categoryname, .nameofcategory, #description {
+    font-size: 20px;
+    color: white;
+}
+.nameofcategory {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 3%;
+}
