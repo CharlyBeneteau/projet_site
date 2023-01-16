@@ -12,7 +12,7 @@ body, .cadreg, .cadred, #logosite {
     width: 20%;
     align-items: center;
     min-height: 100vh;
-    background-color: rgba(25, 37, 49,255);
+    background: linear-gradient(black,rgba(25, 37, 49,255));
 }
 .cadred {
     margin-left: 20%;
