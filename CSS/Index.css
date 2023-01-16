@@ -32,17 +32,6 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     background-repeat: no-repeat;
     margin-bottom: 150px;
 }
-#searchbar {
-    display:flex;
-    height: 5%;
-    background-color: rgb(30,30,30);
-    align-items: center;
-    justify-content: center;
-    margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border-radius: 5px;
-}
 .category, #abonnement {
     display: flex;
     margin-left: 5%;
