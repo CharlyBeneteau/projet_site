@@ -47,6 +47,23 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
 .category:hover {
     background-color: #1e1e1e;
 }
+.filmholder {
+    display: flex;
+    flex-direction: column;
+}
+.films {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(50, 50, 50);
+    padding: 1%;
+    overflow: auto;
+}
+.film {
+    display: flex;
+    margin-right: 1%;
+    margin-left: -0.2%;
+}
 #categoryholder {
     display: flex;
     flex-direction: column;
