@@ -45,7 +45,10 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     border-radius: 5px;
 }
 .category:hover {
-    background-color: #f20404;
+    background-color: #32324a;
+}
+#abonnement:hover{
+    background-color: #32324a;
 }
 .filmholder {
     display: flex;
