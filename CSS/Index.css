@@ -12,7 +12,7 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     width: 20%;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(rgb(18, 18, 18),rgb(59, 87, 115));
+    background: linear-gradient(black,rgba(25, 37, 49,255));
 }
 .cadred {
     margin-left: 20%;
@@ -20,7 +20,7 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     flex-direction: column;
     width:80%;
     min-height: 100vh;
-    background-color: rgb(13, 24, 30,255);
+    background-color: rgba(13, 24, 30,255);
 }
 #logosite {
     display: flex;
@@ -39,27 +39,24 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     align-items: center;
     justify-content: center;
     height: fit-content;
-    border: 3px solid black;
+    border: 3px solid rgba(13, 24, 30,255);
     margin-top: 15px;
-    background-color : rgba(21,27,30,255);
+    background-color :rgba(13, 24, 30,255);
     border-radius: 5px;
+    color: rgba(0,168,225,255);
 }
 .category:hover {
-    background-color: #32324a;
-}
-#abonnement:hover{
-    background-color: #32324a;
+    background-color: #1e1e1e;
 }
 .filmholder {
     display: flex;
     flex-direction: column;
-    background-color: rgb(13, 24, 30,255);
 }
 .films {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);  
     padding: 1%;
     overflow: auto;
 }
@@ -73,18 +70,48 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     flex-direction: column;
     width: 90%;
     height:fit-content;
-    background-color: rgb(30, 30, 30);
+    background-color: rgba(13, 24, 30,255);
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
     border-radius: 1px;
+    color: azure;
 }
-.categoryname, .nameofcategory, #description {
-    font-size: 20px;
-    color: white;
+#popupfilm {
+    display: none;
+    position:fixed;
+    background: rgb(30, 30, 30);
+    width: 75%;
+    height: 75%;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    border-radius: 1px;
 }
-.nameofcategory {
+#cadrevideo {
+    position: absolute;
+    top: 5%; bottom: 10px; left: 2%;
     display: flex;
-    margin-left: 30px;
-    margin-top: 3%;
+    width: 70%;
+    height:90%;
 }
+#video {
+    object-fit: contain;
+}
+#closebutton {
+    position: fixed;
+    top: 12%;
+    right: 4%;
+}
+#launchvideo {
+    margin-top: 25%;
+    margin-left: 47%;
+    width:20%;
+    height: 20%;
+    position:absolute;
+}
+#description {
+    width: 18%;
+    margin-left: 81%;
+    margin-top: 15%;
+    color: azure;
+} 
