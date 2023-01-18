@@ -1,4 +1,4 @@
-body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
+body, .cadreg, .cadred, #logosite, #searchbar, .category, .abonnement {
     font-family: Arial, Helvetica, sans-serif
 }
     body {
@@ -32,7 +32,7 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     background-repeat: no-repeat;
     margin-bottom: 150px;
 }
-.category, #abonnement {
+.category, .abonnement {
     display: flex;
     margin-left: 5%;
     width: 90%;
@@ -46,6 +46,9 @@ body, .cadreg, .cadred, #logosite, #searchbar, .category, #abonnement {
     color: rgba(0,168,225,255);
 }
 .category:hover {
+    background-color: #1e1e1e;
+}
+.abonnement:hover {
     background-color: #1e1e1e;
 }
 .filmholder {
