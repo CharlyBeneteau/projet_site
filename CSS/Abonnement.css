@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+p {
+    color: white;
+}
+.cadreg {
+    position: fixed;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(black,rgba(25, 37, 49,255));
+}
+#logosite {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-image: url(../image/logo.png) ;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.cadred {
+    position: fixed;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 20%;
+    height: 100%;
+    background-color: rgba(13, 24, 30,255);
+}
+#aboholder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(13, 24, 30,255);
+    height: 80%;
+    width: 80%;
+    margin-left: 13%;
+    margin-top: 10%;
+
+}
+#abo1, #abo2, #abo3 {
+    background-color: rgb(30, 30, 30);
+    min-height: 80%;
+    min-width: 17em;
+    margin-right: 8%;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+.prix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 3em;
+}
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.souscrire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 200%;
+    
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,168,225,255), 0 17px 50px 0 rgba(0,168,225,255);
+}
